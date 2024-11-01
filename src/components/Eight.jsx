@@ -1,5 +1,6 @@
 import React from "react";
-
+import { useState } from "react";
+import "../index.css";
 const LanguagesSelector = () => {
   const [languages, setLanguages] = useState("en");
   //   if (LanguagesSelector  === true){

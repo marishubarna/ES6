@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 
 const Dodawana = () => {
   const [lineForNumbers, setLine] = useState("");
